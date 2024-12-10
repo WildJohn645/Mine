@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>John Nyamweya</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">John Nyamweya</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <!--<li><a href="portfolio.html">Portfolio</a></li> -->
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+              <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="services.html">Data Science</a></li>
+                  <li><a href="services.html">Web Design</a></li>
+                  <li><a href="services.html">Networking</a></li>
+                  <li><a href="services.html">Data Analytics</a></li>
+                  <li><a href="services.html">Web Hosting</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </li>
+
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Where Ideas Turn Into Impact</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>
+                I'm John,
+                a passionate tech enthusiast with a drive to innovate and create solutions that make a difference.
+                Whether it's exploring data science, developing software,
+                or tackling global challenges like sustainability and mental health,
+                I'm always seeking new ways to push boundaries and make an impact.
+                Join me as I embark on this exciting journey of discovery, growth, and innovation!
+              </p>
+            </blockquote>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://youtu.be/itIpz_Vn3hU" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row g-0">
+
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/why-us-bg.jpg" alt="">
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "centeredSlides": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Let's grow your business together</h3>
+                    <h4 class="mb-3">Innovative Solutions. Meaningful Impact. Sustainable Success.</h4>
+                    <p>
+                      Partner with me to unlock innovative solutions, harness the power of technology, 
+                      and turn challenges into opportunities. Together,
+                      we’ll achieve your business goals and build a sustainable, successful future.
+                    </p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Empowering Your Vision Through Technology</h3>
+                    <h4 class="mb-3">Innovative Solutions. Seamless Execution. Lasting Impact.</h4>
+                    <p>
+                      I specialize in turning your ideas into reality through cutting-edge, 
+                      tech-driven solutions. By leveraging the latest tools and strategies, 
+                      I help businesses and individuals achieve their goals and create meaningful change in their industries.
+                    </p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Innovating for a Better Tomorrow</h3>
+                    <h4 class="mb-3">Creative Solutions. Advanced Technology. Real Results.</h4>
+                    <p>
+                      I am dedicated to creating innovative and impactful solutions that address today’s challenges and shape 
+                      a brighter future. 
+                      By combining creativity with technology, 
+                      I help businesses and individuals achieve sustainable success.
+                    </p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Transforming Ideas into Reality</h3>
+                    <h4 class="mb-3">Your Vision, Powered by Technology.</h4>
+                    <p>
+                      I bring your ideas to life through innovative solutions and cutting-edge technology. 
+                      By focusing on creativity and precision, 
+                      I help you achieve your goals and make a lasting impact in your field.
+
+                    </p>
+                  </div>
+                </div><!-- End slide item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Solutions That Drive Success</h2>
+        <p>
+          I'm here to provide innovative and tailored solutions that meet your unique needs.
+          Whether you're looking to enhance your technology, optimize data, or solve complex problems,
+          I’m committed to delivering results that drive success.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+            <div>
+              <h4 class="title">Data Science & Analytics Solutions</h4>
+              <p class="description">
+                Unlock the power of data with customized analysis and insights. 
+                I help businesses and organizations make data-driven decisions, optimize processes, 
+                and uncover valuable patterns to enhance efficiency and growth.
+              </p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title">Software Development & App Creation</h4>
+              <p class="description">
+                I specialize in developing high-quality, 
+                user-friendly software and mobile applications that solve real-world problems. 
+                Whether you need a custom app for your business or a full-scale software solution,
+                I bring ideas to life with precision and innovation.
+              </p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
+            <div>
+              <h4 class="title">Technology Consulting & Innovation</h4>
+              <p class="description">
+                I offer expert guidance on integrating the latest technologies to optimize your business operations. 
+                From strategic advice to innovative tech solutions, 
+                I help you stay ahead in a rapidly evolving digital world.
+              </p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
+            <div>
+              <h4 class="title">Sustainability & Smart Agriculture Solutions</h4>
+              <p class="description">
+                I create data-driven solutions for the agriculture sector, 
+                optimizing resource use and increasing crop yields through innovative technologies. 
+                My goal is to promote sustainable farming practices that improve both productivity and environmental 
+                impact.
+              </p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
+            <div>
+              <h4 class="title">Custom Web Development</h4>
+              <p class="description">
+                I design and develop dynamic, user-friendly websites tailored to meet your unique needs. 
+                Whether it’s a personal portfolio, an e-commerce platform, or a business site, 
+                I deliver high-quality solutions that ensure a seamless online presence. 
+              </p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
+            <div>
+              <h4 class="title">Automation and Process Optimization</h4>
+              <p class="description">
+                I help streamline workflows and automate repetitive tasks using technology to improve efficiency and save time. 
+                My solutions are tailored to meet your specific operational needs, 
+                enhancing productivity and scalability.</p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+   <!-- Call To Action Section -->
+   <section id="call-to-action" class="call-to-action section dark-background">
+
+    <img src="assets/img/cta-bg.jpg" alt="">
+
+    <div class="container">
+      <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-xl-10">
+          <div class="text-center">
+            <h3>Ready to Turn Your Vision Into Reality?</h3>
+            <p>
+              Are you looking for innovative solutions that drive success and make a real impact?
+              Whether you're aiming to streamline your processes, develop new technologies, 
+              or solve complex problems, I am here to help. With expertise in software development, 
+              data analysis, and technology integration, I provide tailored solutions to meet your unique needs. 
+              Don’t let your ideas stay on paper—let’s bring them to life and shape a brighter future together! Reach out today, 
+              and let’s start building something incredible.
+            </p>
+            <a class="cta-btn" href="contact.html">Contact Me Now to Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- /Call To Action Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="mb-0">Powerful Features for</h3>
+            <h3>You</h3>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-eye" style="color: #ff8b2c;"></i>
+                  <span>Tailored Solutions</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-infinity" style="color: #5578ff;"></i>
+                  <span>Innovative Technology</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-mortarboard" style="color: #e80368;"></i>
+                  <span>Efficiency & Precision</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-star" style="color: #ffa76e;"></i>
+                  <span>Collaborative Approach</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
+                  <span>Sustainable Impact</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-camera-video" style="color: #4233ff;"></i>
+                  <span>User-Centered Design</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
+                  <span>Scalable Solutions</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-activity" style="color: #ff5828;"></i>
+                  <span>Data-Driven Insights</span>
+                </div>
+              </div><!-- End Icon List Item-->
+            </div>
+          </div>
+          <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
+            <div class="phone-wrap">
+              <img src="assets/img/iphone.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <h4>Why Choose My Services?<br>Here Is Why...</h4>
+              <p>I offer tailored solutions that leverage innovative technology to deliver efficient, 
+                high-quality results. By focusing on scalability, data-driven insights, and user-centered design, 
+                I ensure that every project meets your unique needs and goals. With a collaborative approach and 
+                a commitment to sustainable impact, 
+                I provide rapid delivery and ongoing support to ensure long-term success.</p>
+              <a href="about.html" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Spotlight on My Latest Projects</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, December 3</span>
+                <span class="post-author"> / Precision Farming App</span>
+              </div>
+              <h3 class="post-title">Optimizing Crop Yield Through Data-Driven Solutions</h3>
+              <p>Developed a mobile app to help farmers optimize crop yields by analyzing soil data, 
+                weather conditions, and resource use. The app provides real-time recommendations to 
+                improve agricultural efficiency and sustainability.
+
+              </p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Fri, September 05</span>
+                <span class="post-author"> / Mental Health Awareness Platform</span>
+              </div>
+              <h3 class="post-title">Supporting Well-Being Through Digital Solutions</h3>
+              <p>Created a platform aimed at raising awareness about mental health, providing resources, 
+                and connecting users to professionals for virtual consultations. 
+                The platform uses data insights to improve user engagement and offer personalized recommendations.
+              </p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, July 27</span>
+                <span class="post-author"> / E-commerce Analytics Dashboard</span>
+              </div>
+              <h3 class="post-title">Turning Data into Actionable Insights for Online Stores</h3>
+              <p>
+                Designed a comprehensive analytics dashboard for e-commerce businesses to track customer behavior, 
+                sales performance, and inventory levels. 
+                The tool provides actionable insights to optimize marketing strategies and sales performance.
+              </p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, Sep 16</span>
+                <span class="post-author"> / Personal Finance Tracker App</span>
+              </div>
+              <h3 class="post-title">Empowering Users to Take Control of Their Finances</h3>
+              <p>
+                Created a mobile app that helps individuals manage their personal finances by tracking expenses, 
+                setting budgets, and visualizing savings goals. 
+                The app provides monthly reports and financial advice based on user spending patterns.
+              </p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Recent Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">John</span>
+            </a>
+            <h4>Thank you for visiting!</h4>
+            <p>
+              I’m passionate about creating innovative solutions that drive success. 
+              Let’s connect and explore how we can work together to bring your ideas to life. 
+              Stay tuned for more updates, and feel free to reach out with any questions or opportunities.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://x.com/J_ust_64"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/WildJohn645"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/j_us.t_me"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/john-nyamweya-b63836329"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="https://bootstrapmade.com/license/">Terms of service</a></li>
+              <li><a href="https://bootstrapmade.com/license/">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="service-details.html">Data Science & Analytics Solutions</a></li>
+              <li><a href="service-details.html">Software Development & App Creation</a></li>
+              <li><a href="service-details.html">Technology Consulting & Innovation</a></li>
+              <li><a href="service-details.html">Sustainability & Smart Agriculture Solutions</a></li>
+              <li><a href="service-details.html">Custom Web Development</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p></p>
+            <p>Kakamega</p>
+            <p>Kenya</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+254-745-335-685</span></p>
+            <p><strong>Email:</strong> <span>nyamweyajohn645@gmail.com</span></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">John Nyamweya</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
